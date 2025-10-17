@@ -1,7 +1,3 @@
-<style>
-a { text-decoration: underline !important; }
-</style>
-
 # Humanoid Robot Whole-Body Control Papers
 
 A comprehensive collection of recent research on humanoid robot control, teleoperation, and manipulation.
@@ -19,29 +15,29 @@ A comprehensive collection of recent research on humanoid robot control, teleope
   - 전신 협응 원격조작 시스템
   - Coordinated full-body control systems
 
-#### [2. Acrobatic & Body Motion](./docs/acrobatic-motion.md)
+#### **[2. Acrobatic & Body Motion](./docs/acrobatic-motion.md)**
 - 고도로 동적인 전신 움직임
 - Highly dynamic skills: kung-fu, balance, parkour
 
-#### 3. [Whole-Body Control + Locomotion](./docs/control-locomotion.md)
+#### **[3. Whole-Body Control + Locomotion](./docs/control-locomotion.md)**
 - 전신 제어와 이동의 통합
 - Integration of manipulation and walking
 
-#### 4. [Whole-Body Control + Navigation (Locomotion)](./docs/control-navigation.md)
+#### **[4. Whole-Body Control + Navigation (Locomotion)](./docs/control-navigation.md)**
 - 내비게이션을 포함한 전신 제어
 - Navigation-aware whole-body control
 
-#### 5. [Whole-Body Control + Object Interaction + Navigation](./docs/control-interaction-navigation.md)
+#### **[5. Whole-Body Control + Object Interaction + Navigation](./docs/control-interaction-navigation.md)**
 - 객체 상호작용, 이동, 제어의 통합
 - Loco-manipulation with scene interaction
 
-#### 6. [Whole-Body Control + VLA (Vision-Language-Action)](./docs/control-vla.md)
+#### **[6. Whole-Body Control + VLA (Vision-Language-Action)](./docs/control-vla.md)**
 - 비전-언어-행동 모델 기반 제어
 - Vision-Language-Action models for humanoid control
 
 ### Dexterous Arm & Hand Policies of Humanoid Robot
 
-#### 7. [Dexterous Manipulation](./docs/dexterous-manipulation.md)
+#### **[7. Dexterous Manipulation](./docs/dexterous-manipulation.md)**
 - 정밀 팔/손 제어 정책
 - Advanced arm and hand manipulation policies
 
@@ -99,5 +95,5 @@ If you find this collection helpful, please consider citing the relevant papers 
 
 ---
 
-**Last Updated**: 2025-10
+**Last Updated**: 2025-10  
 **Maintainer**: Research Team

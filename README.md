@@ -15,7 +15,7 @@ A comprehensive collection of recent research on humanoid robot control, teleope
   - 전신 협응 원격조작 시스템
   - Coordinated full-body control systems
 
-#### 2. [Acrobatic & Body Motion](./docs/acrobatic-motion.md)
+#### [2. Acrobatic & Body Motion](./docs/acrobatic-motion.md)
 - 고도로 동적인 전신 움직임
 - Highly dynamic skills: kung-fu, balance, parkour
 

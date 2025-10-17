@@ -12,7 +12,7 @@ A comprehensive collection of recent research on humanoid robot control, teleope
   - Focusing on arm and hand manipulation
   
 - **[1.2 Whole-Body Oriented Teleoperation](./docs/wholebody-teleoperation.md)**
-  - 전신 협응 원격조작 시스템
+  - 전신 원격조작 시스템
   - Coordinated full-body control systems
 
 #### **[2. Acrobatic & Body Motion](./docs/acrobatic-motion.md)**
@@ -32,7 +32,7 @@ A comprehensive collection of recent research on humanoid robot control, teleope
 - Loco-manipulation with scene interaction
 
 #### **[6. Whole-Body Control + Language Conditioned or VLA](./docs/control-vla.md)**
-- 비전-언어-행동 모델 기반 제어
+- language-conditioned or VLA 기반 제어
 - Vision-Language-Action models for humanoid control
 ---
 

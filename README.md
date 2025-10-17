@@ -1,158 +1,99 @@
 # Humanoid Robot Whole-Body Control Papers
 
-A curated list of recent papers on humanoid robot whole-body control and motion tracking.
+A comprehensive collection of recent research on humanoid robot control, teleoperation, and manipulation.
 
-## Papers
+## 📚 Paper Categories
 
-### 1. LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning
-**Authors**: Yiyang Shao, Bike Zhang, Qiayuan Liao, Xiaoyu Huang, Yuman Gao, Yufeng Chi, Zhongyu Li, Sophia Shao, Koushil Sreenath
+### Whole-Body Control Categories of Humanoid Robot
 
-**Links**:
-- [arXiv](https://arxiv.org/abs/2504.21738)
-- [Project Page](https://langwbc.github.io/)
+#### 1. Teleoperation (원격조작)
+- **[1.1 Upper-Body Oriented Teleoperation](./docs/upperbody-teleoperation.md)**
+  - 상체 중심의 원격조작 시스템
+  - Focusing on arm and hand manipulation
+  
+- **[1.2 Whole-Body Oriented Teleoperation](./docs/wholebody-teleoperation.md)**
+  - 전신 협응 원격조작 시스템
+  - Coordinated full-body control systems
 
-**Summary**: An end-to-end, language-directed policy for real-world humanoid whole-body control using reinforcement learning with policy distillation and CVAE structure.
+#### 2. [Acrobatic & Body Motion](./docs/acrobatic-motion.md)
+- 고도로 동적인 전신 움직임
+- Highly dynamic skills: kung-fu, balance, parkour
 
----
+#### 3. [Whole-Body Control + Locomotion](./docs/control-locomotion.md)
+- 전신 제어와 이동의 통합
+- Integration of manipulation and walking
 
-### 2. HuB: Learning Extreme Humanoid Balance
-**Authors**: Tong Zhang, Boyuan Zheng, Ruiqian Nai, Yingdong Hu, Yen-Jen Wang, Geng Chen, Fanqi Lin, Jiongye Li, Chuye Hong, Koushil Sreenath, Yang Gao
+#### 4. [Whole-Body Control + Navigation (Locomotion)](./docs/control-navigation.md)
+- 내비게이션을 포함한 전신 제어
+- Navigation-aware whole-body control
 
-**Links**:
-- [arXiv](https://arxiv.org/abs/2505.07294)
-- [Project Page](https://hub-robot.github.io/)
+#### 5. [Whole-Body Control + Object Interaction + Navigation](./docs/control-interaction-navigation.md)
+- 객체 상호작용, 이동, 제어의 통합
+- Loco-manipulation with scene interaction
 
-**Summary**: A unified framework for humanoid control in extreme balance tasks, integrating reference motion refinement, balance-aware policy learning, and sim-to-real robustness training.
+#### 6. [Whole-Body Control + VLA (Vision-Language-Action)](./docs/control-vla.md)
+- 비전-언어-행동 모델 기반 제어
+- Vision-Language-Action models for humanoid control
 
----
+### Dexterous Arm & Hand Policies of Humanoid Robot
 
-### 3. Switch4EAI: Leveraging Console Game Platform for Benchmarking Robotic Athletics
-**Authors**: Tianyu Li, Jeonghwan Kim, Wontaek Kim, Donghoon Baek, Seungeun Rho, Sehoon Ha
-
-**Links**:
-- [arXiv](https://arxiv.org/abs/2508.13444)
-
-**Summary**: A low-cost pipeline leveraging motion-sensing console games (Just Dance) to evaluate whole-body robot control policies and benchmark humanoid athletic performance.
-
----
-
-### 4. BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion
-**Authors**: Qiayuan Liao, Takara E. Truong, Xiaoyu Huang, Guy Tevet, Koushil Sreenath, C. Karen Liu
-
-**Links**:
-- [arXiv](https://arxiv.org/abs/2508.08241)
-- [Project Page](https://beyondmimic.github.io/)
-- [GitHub](https://github.com/HybridRobotics/whole_body_trac)
-
-**Summary**: A real-world framework for learning from human motions for versatile humanoid control via guided diffusion, enabling motion tracking and zero-shot task-specific control.
+#### 7. [Dexterous Manipulation](./docs/dexterous-manipulation.md)
+- 정밀 팔/손 제어 정책
+- Advanced arm and hand manipulation policies
 
 ---
 
-### 5. Embrace Collisions: Humanoid Shadowing for Deployable Contact-Agnostics Motions
-**Authors**: Ziwen Zhuang, Hang Zhao
+## 📊 Statistics
 
-**Links**:
-- [arXiv](https://arxiv.org/abs/2502.01465)
-- [Project Page](https://project-instinct.github.io/)
+- **Total Papers**: 28+
+- **Categories**: 7
+- **Languages**: English + Korean (한글)
+- **Common Platforms**: Unitree G1, H1, Fourier GR1
+- **Key Datasets**: AMASS, HumanML3D, LAFAN1, GRAB
 
-**Summary**: A framework enabling humanoid robots to use all body parts for interaction with the environment, handling unpredictable contact sequences.
+## 🔑 Key Research Topics
 
----
+- **Reinforcement Learning** for humanoid control
+- **Diffusion Models** for motion generation
+- **Motion Retargeting** from human data
+- **Sim-to-Real Transfer** techniques
+- **Vision-Language Models** integration
+- **Teleoperation Systems** (VR/MR/Exoskeleton)
+- **Mixture of Experts** (MoE) architectures
+- **Human Motion Imitation** and tracking
 
-### 6. HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos
-**Authors**: Haoyang Weng, Yitang Li, Nikhil Sobanbabu, Zihan Wang, Zhengyi Luo, Tairan He, Deva Ramanan, Guanya Shi
+## 🌟 Featured Papers
 
-**Links**:
-- [arXiv](https://arxiv.org/abs/2509.16757)
-- [Project Page](https://hdmi-humanoid.github.io/)
-- [GitHub](https://github.com/LeCAR-Lab/HDMI)
+- **CLONE**: Closed-loop teleoperation with minimal drift
+- **HumanPlus**: Learning from 40+ hours of human motion data
+- **BeyondMimic**: Guided diffusion for versatile control
+- **GMT**: General motion tracking with MoE architecture
+- **DreamControl**: Human-inspired control via diffusion
+- **TWIST**: Teleoperated whole-body imitation system
+- **OmniH2O**: Universal human-to-humanoid teleoperation
 
-**Summary**: A framework that learns whole-body humanoid-object interaction skills directly from monocular RGB videos, enabling robust loco-manipulation tasks.
+## 📖 How to Use This Repository
 
----
+1. Browse categories by clicking on the links above
+2. Each category page contains:
+   - Detailed paper summaries (English + Korean)
+   - arXiv links, project pages, and GitHub repositories
+   - Technical highlights and key contributions
+3. Use the search function to find specific topics
 
-### 7. DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion
-**Authors**: Dvij Kalaria, Sudarshan S Harithas, Pushkal Katara, Sangkyung Kwak, Sarthak Bhagat, S. Shankar Sastry, Srinath Sridhar, Sai Vemprala, Ashish Kapoor, Jonathan Huang
+## 🤝 Contributing
 
-**Links**:
-- [arXiv](https://arxiv.org/abs/2509.14353)
-- [Project Page](https://genrobo.github.io/DreamControl/)
+Contributions are welcome! Please feel free to:
+- Add new papers
+- Update existing information
+- Improve categorization
+- Add translations
 
-**Summary**: A methodology using diffusion models and RL with human motion-informed priors to enable autonomous whole-body humanoid skills for scene interaction.
+## 📝 Citation
 
----
-
-### 8. GMT: General Motion Tracking for Humanoid Whole-Body Control
-**Authors**: Zixuan Chen, Mazeyu Ji, Xuxin Cheng, Xuanbin Peng, Xue Bin Peng, Xiaolong Wang
-
-**Links**:
-- [arXiv](https://arxiv.org/abs/2506.14770)
-- [Project Page](https://gmt-humanoid.github.io/)
-- [GitHub](https://github.com/zixuan417/humanoid-general-motion-tracking)
-
-**Summary**: A general and scalable motion-tracking framework using Adaptive Sampling strategy and Motion Mixture-of-Experts architecture for diverse whole-body motions.
-
----
-
-### 9. OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction
-**Authors**: Lujie Yang, Xiaoyu Huang, Zhen Wu, Angjoo Kanazawa, Pieter Abbeel, Carmelo Sferrazza, C. Karen Liu, Rocky Duan, Guanya Shi
-
-**Links**:
-- [arXiv](https://arxiv.org/abs/2509.26633)
-- [Project Page](https://omniretarget.github.io/)
-
-**Summary**: An interaction-preserving data generation engine for humanoid loco-manipulation, explicitly modeling spatial and contact relationships between agent, terrain, and objects.
+If you find this collection helpful, please consider citing the relevant papers and starring this repository.
 
 ---
 
-### 10. LeVERB: Humanoid Whole-Body Control with Latent Vision-Language Instruction
-**Authors**: Haoru Xue, Xiaoyu Huang, Dantong Niu, Qiayuan Liao, Thomas Kragerud, Jan Tommy Gravdahl, Xue Bin Peng, Guanya Shi, Trevor Darrell, Koushil Sreenath, Shankar Sastry
-
-**Links**:
-- [arXiv](https://arxiv.org/abs/2506.13751)
-- [Project Page](https://ember-lab-berkeley.github.io/LeVERB-Website/)
-
-**Summary**: A hierarchical latent instruction-following framework for humanoid vision-language whole-body control, learning latent action vocabulary from synthetic demonstrations.
-
----
-
-### 11. Visual Imitation Enables Contextual Humanoid Control (VideoMimic)
-**Authors**: Arthur Allshire, Hongsuk Choi, Junyi Zhang, David McAllister, Anthony Zhang, Chung Min Kim, Trevor Darrell, Pieter Abbeel, Jitendra Malik, Angjoo Kanazawa
-
-**Links**:
-- [arXiv](https://arxiv.org/abs/2505.03729)
-- [Project Page](https://www.videomimic.net/)
-- [GitHub](https://github.com/hongsukchoi/VideoMimic)
-
-**Summary**: A real-to-sim-to-real pipeline that mines everyday videos to produce whole-body control policies for context-aware humanoid behaviors like stair climbing and sitting.
-
----
-
-### 12. Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture
-**Author**: Rohan P. Singh, Pierre-Alexandre Leziart, Masaki Murooka, Mitsuharu Morisawa, Eiichi Yoshida, Fumio Kanehiro
-
-**Links**:
-- arXiv link not available in search results
-
-**Summary**: Expert-guided imitation learning approach for humanoid loco-manipulation using motion capture data.
-
----
-
-### 13. Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching
-**Authors**: Information not available in provided data
-
-**Links**:
-- Information not available
-
-**Summary**: Research on autonomous delivery systems for humanoid robots integrating navigation, locomotion, and reaching capabilities.
-
----
-
-## Notes
-- Most papers focus on sim-to-real transfer for humanoid robots
-- Common platforms: Unitree G1, H1
-- Key techniques: Reinforcement Learning, Diffusion Models, Motion Retargeting, Vision-Language Models
-- Datasets: AMASS, HumanML3D, LAFAN1, OMOMO
-
-## Contributing
-Feel free to submit pull requests to add more papers or update information.
+**Last Updated**: 2025-10
+**Maintainer**: Research Team

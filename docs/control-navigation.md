@@ -7,8 +7,9 @@
 ## Hand-Eye Autonomous Delivery: Learning Humanoid Navigation, Locomotion and Reaching
 
 **Links**:
-- 📄 arXiv: TBA
-- 🌐 Project Page: TBA
+- 📄 [arXiv](https://arxiv.org/abs/2508.03068)
+- 🌐 [Project](https://stanford-tml.github.io/HEAD/)
+- 💻 [GitHub](https://github.com/Stanford-TML/HEAD_release)
 
 ### 요약 (Summary)
 
